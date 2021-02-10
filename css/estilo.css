@@ -1,0 +1,158 @@
+/* #EFA16A, #FD7201, #FA6E03, #E34A02, #C83A05, #C23501, #B43109, #0B375C */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efa16a;
+}
+
+/* inicio header */
+#header {
+    background-color: #FA6E03;
+    height: 130px;
+    line-height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header-container {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header-logo>h1 {
+    font-size: 3em;
+    color: #0B375C;
+}
+
+.color-dragon {
+    color: #fff;
+}
+
+#header-menu>a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+#header-menu>a:hover {
+    color: #FA6E03;
+    background-color: #fff;
+}
+
+/* fim header */
+
+/* inicio principal */
+#principal {
+    margin-top: 130px;
+}
+
+#principal-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#principal-noticias {
+    width: 650px;
+    float: left;
+}
+
+.noticia {
+    background-color: #FD7201;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+img.noticia-imagem {
+    margin-top: 10px;
+    width: 100%;
+}
+
+h1.noticia-titulo {
+    font-size: 2em;
+    color: #0B375C;
+}
+
+span.noticia-data {
+    color: #B43109;
+    font-size: 0.9em;
+}
+
+p.noticia-texto {
+    text-align: justify;
+}
+
+a.noticia-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover.noticia-link {
+    text-decoration: underline;
+}
+
+#principal-lateral {
+    float: right;
+    width: 330px;
+}
+
+#recentes,
+#categorias {
+    background-color: #FD7201;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#lateral-container h2 {
+    color: #0B375C;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+#lateral-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#lateral-container a:hover {
+    text-decoration: underline;
+}
+
+.linha {
+    border-top: 1px dotted #0B375C;
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/* fim principal */
+
+/* inicio footer */
+#footer{
+    background-color: #FA6E03;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+}
+
+#footer h2{
+    font-size: 2em;
+    color: #0B375C;
+}
+/* fim footer */
